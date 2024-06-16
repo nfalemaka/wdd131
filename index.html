@@ -4,11 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Natalie Falemaka</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Natalie Falemaka course home page and introduction" />
+    <meta name="author" content="Natalie Falemaka" />
+
+    <link rel="stylesheet" href="week01/styles/base.css">
+    <script src="week01/scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>WDD 131</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Natalie Falemaka</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/natalie-falemaka-6b357a230/">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=12#p8">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid">
+            <section class="card" id="about-me">
+
+                <h2>About Me</h2>
+                <img src="week01/images/profile.jpg" alt="A picture of Natalie Falemaka" width="200">
+                <p>My name is Natalie Falemaka. I am from West Valley City, UT. I am currently working at a warehouse as
+                    a
+                    Material Distribution Technician II. During my free time, I love to read autobiographies and watch
+                    Korean
+                    dramas with my mother. I also like to play the piano, eat spicy noodles and workout with my brother
+                    when
+                    I
+                    can. I love learning new things and discovering ways on how I can further develop and grow myself.
+                </p>
+
+                <h3>Utah</h3>
+                <img src="week01/images/flagofutah.png" alt="The flag of Utah" width="350">
+                <figcaption>Official Flag of Utah</figcaption>
+                <p>Utah is a western state in the United States. It is also known as the beehive state. The capital of
+                    UT is
+                    Salt Lake City. Utah is the second-driest state in the US after Nevada.</p>
+            </section>
+
+            <section class="card" id="web-dev">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://dev.to/" target="_blank">Dev. to Community</a></li>
+                    <li><a href="https://imagecolorpicker.com/#google_vignette" target="_blank">Image Color Picker</a>
+                    </li>
+                    <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                    <li><a href="https://jsfiddle.net/" target="_blank">JSFiddle</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>©️<span id="currentyear"></span> 🥭 Natalie Falemaka 🥭 West Valley City, UT</p>
+        <p id="lastModified"></p>
+    </footer>
 
 </body>
 
